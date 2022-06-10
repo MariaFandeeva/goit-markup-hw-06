@@ -608,9 +608,11 @@ cursor: pointer;
   background-color: transparent;
   cursor: pointer;
   padding: 0;
+  
 }
 .modal-close-btn-icon {
   fill: #000000;
+  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 .modal-close-btn:hover .modal-close-btn-icon,
 .modal-close-btn:focus .modal-close-btn-icon {
@@ -673,6 +675,8 @@ fill: var(--accent-color);
 .contact-form-input-wrap {
   position: relative;
   margin-top: 4px;
+/*   width: 448px;
+  height: 40px; */
 }
 .contact-form-comment {
   width: 100%;
