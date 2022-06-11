@@ -656,6 +656,7 @@ transition: border-color var(--transition-duration) var(--transition-timing-func
   letter-spacing: 0.01em;
   color: var(--header-color);  
   display: block;
+  
 }
 .contact-form-field:not(:last-child) {
   margin-bottom: 10px;
@@ -685,6 +686,7 @@ fill: var(--accent-color);
   height: 40px; */
 }
 .contact-form-comment {
+  display: block;
   width: 100%;
   height: 120px;
   margin-top: 4px;
