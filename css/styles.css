@@ -666,6 +666,7 @@ transition: border-color var(--transition-duration) var(--transition-timing-func
 line-height: 1.16;
 letter-spacing: 0.01em;
 color: var(--main-text-color);
+display: block;
 }
 .contact-form-input-icon {
   position: absolute;
